@@ -22,8 +22,8 @@ export function createMarkup(arr) {
                 </ul>
             </a>
         </div>
-        </li>
-        `
+    </li>
+    `
     )
     .join('');
 }
