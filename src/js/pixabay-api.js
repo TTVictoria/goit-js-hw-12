@@ -10,7 +10,7 @@ export async function doFetch(query, page = 1) {
     orientation: 'horizontal',
     safesearch: true,
     per_page: 15, 
-    page,
+    page: page, 
   };
   try {
     const response = await axios.get(BASE_URL, { params });
