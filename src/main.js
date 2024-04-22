@@ -1,8 +1,9 @@
 import { doFetch } from './js/pixabay-api.js';
-import { createMarkup } from './js/render-functions.js';
+import { renderImages, showErrorToast, createMarkup } from './js/render-functions.js';
 import './css/styles.css';
 import axios from 'axios';
 import Notiflix from 'notiflix';
+import iziToast from 'izitoast';
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
