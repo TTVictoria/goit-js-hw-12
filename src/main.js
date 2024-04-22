@@ -1,5 +1,5 @@
 import { doFetch } from './js/pixabay-api.js';
-import { createMarkup } from './render-functions';
+import { createMarkup } from './js/render-functions.js';
 
 let page = 1;
 
