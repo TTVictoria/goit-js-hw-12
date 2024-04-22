@@ -1,6 +1,6 @@
 import { doFetch } from './js/pixabay-api.js';
 import { createMarkup } from './js/render-functions.js';
-import './css/style.css';
+import './css/styles.css';
 import axios from 'axios';
 import Notiflix from 'notiflix';
 import SimpleLightbox from 'simplelightbox';
