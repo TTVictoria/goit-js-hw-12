@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-export async function doFetch(query, page) {
+export async function doFetch(query, page = 1) {
   const BASE_URL = 'https://pixabay.com/api/';
   const API_KEY = '43499454-4c7e954d404e5474a5c884b10';
   const params = {
