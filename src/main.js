@@ -1,4 +1,4 @@
-import { doFetch } from './pixabay-api';
+import { doFetch } from './js/pixabay-api.js';
 import { createMarkup } from './render-functions';
 
 let page = 1;
