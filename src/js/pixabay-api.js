@@ -4,7 +4,7 @@ import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 
-export async function fetchImages(query, currentPage) {
+export async function doFetch(query, page = 1) {
   const API_KEY = '43499454-4c7e954d404e5474a5c884b10';
   const BASE_URL = 'https://pixabay.com/api/';
   const IMAGE_TYPE = 'photo';
